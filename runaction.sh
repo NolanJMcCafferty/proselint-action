@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo hello_world
+find . -name '*.md' -exec proselint {} +
