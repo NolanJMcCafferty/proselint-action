@@ -2,7 +2,9 @@
 
 echo "these are the files:"
 
-ls
+ls -a
+
+ls -a ../
 
 echo "those were the files"
 
