@@ -1,7 +1,6 @@
 #!/bin/sh
 
-#error=0
-#find . -name '*.md' -exec proselint {} + || error=1
+error=0
+find . -name '*.md' -exec proselint {} + || error=1
 
-#exit "$error"
-exit 1
+exit "$error"
